@@ -1,5 +1,5 @@
 name: first workflow
-on: workflow_dispatch
+on: push
 jobs:
   first-job:
     runs-on: ubuntu-24.04
@@ -8,4 +8,3 @@ jobs:
         run: echo "hi world"
       - name: print goodbye
         run: echo "done - bye"
-      
